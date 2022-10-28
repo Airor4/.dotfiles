@@ -2,6 +2,8 @@ call plug#begin()
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'preservim/nerdtree'
 Plug 'morhetz/gruvbox'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 " will downlaod the latest binary for fzf
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 call plug#end()
@@ -17,3 +19,6 @@ inoremap <expr> <S-Tab> coc#pum#visible() ? coc#pum#prev(1) : "\<S-Tab>"
 set relativenumber
 set wrap!
 colorscheme gruvbox
+let g:airline_theme='ayu_dark'
+let g:airline#extensions#tabline#enabled = 1
+let g:NERDTreeWinSize=20

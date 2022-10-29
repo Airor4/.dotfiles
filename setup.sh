@@ -5,5 +5,5 @@ brew update
 brew doctor
 brew install stow
 brew install node
-brew install neovim
+brew install neofetch tree fzf neovim
 stow *

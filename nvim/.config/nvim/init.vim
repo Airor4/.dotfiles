@@ -12,12 +12,8 @@ call plug#end()
 "Theme and colors
 colorscheme PaperColor
 let g:airline_theme='ayu_dark'
-let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#enabled=1
 let g:NERDTreeWinSize=20
-
-if (has("termguicolors"))
-    set termguicolors
-endif
 
 " Maps for coc suggestions
 inoremap <silent><expr> <cr> coc#pum#visible() ? coc#_select_confirm() : "\<C-g>u\<CR>"

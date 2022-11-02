@@ -8,6 +8,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'f-person/git-blame.nvim'
+Plug 'lewis6991/gitsigns.nvim'
 call plug#end()
 
 "Theme and colors
